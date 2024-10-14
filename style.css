@@ -169,3 +169,45 @@ margin-top: 20px;
   font-weight: 700;
   text-decoration-line: underline;
 }
+
+.support{
+  margin: 150px 150px;
+  text-align: center;
+  padding:100px;
+  background-image:url(assets/handshake.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+  color: white;
+}
+
+.input-1{
+width: 548px;
+height: 57px;
+padding: 19px 20px 19px 20px;
+margin: 0px 16px;
+box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+background: rgb(255, 255, 255);
+}
+
+.input-2{
+width: 120px;
+height: 57px;
+padding: 17px 20px 17px 20px;
+color: rgb(13, 19, 33);
+font-size: 20px;
+font-weight: 600;
+text-align: center;
+border-radius: 8px;
+background: rgb(255, 255, 255);
+}
+
+.sup-des{
+  margin-top: 20px;
+}
+
+.input-box{
+  margin-top: 20px;
+}
