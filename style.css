@@ -74,8 +74,50 @@ border-radius: 8px;
 /* 
 Why development Section Style */
 
-/* .common-title{
+.development{
+  margin: 50px 150px;
+  background-color: rgba(13, 19, 33, 0.02);
+  border-radius: 15px;
+}
+
+.common-title{
   color: rgb(13, 19, 33);
   font-size: 32px;
   font-weight: 800;
-} */
+}
+
+.development-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 80px 90px;
+}
+
+.development-header{
+  text-align: center;
+}
+
+.step-title{
+  color: rgba(13, 19, 33, 0.7);
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.step-btn{
+border: 1px solid rgb(13, 19, 33);
+opacity: 0.7;
+padding: 12px 20px;
+font-size: 20px;
+font-weight: 600;
+margin-top: 20px;
+}
+
+.step1{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  padding: 48px;
+  gap: 30px;
+}
