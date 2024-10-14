@@ -121,3 +121,15 @@ margin-top: 20px;
   padding: 48px;
   gap: 30px;
 }
+
+.inpiration{
+  text-align: center;
+  margin: 50px 150px;
+  background-color: rgba(13, 19, 33, 0.02);
+  border-radius: 15px;
+}
+
+.video{
+  margin-top:50px;
+  width: 1000px;
+}
