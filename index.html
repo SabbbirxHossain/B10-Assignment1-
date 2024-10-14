@@ -22,7 +22,7 @@
       <h2 class="banner-title">"In the near future, I hope to become a Developer."</h2>
       <p class="common-description">The best first step to becoming a Web Developer is to start learning web development fundamentals, including an understanding of HTML</p>
       <div class="btn-bnn">
-        <button class="banner-btn">Contact with me</button>
+        <button id="scroll-btn" class="banner-btn">Contact with me</button>
       </div>
       </div>
     </div>
@@ -73,6 +73,7 @@
         <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/EhwczM_Kn2c?si=qcq8Bkj7SU8V5hTf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen ></iframe>
      </section>
 
+    <!-- Current goal -->
     <div class="current-goal">
       <h2 class="common-title">My Current Target</h2>
       <p class="common-description1">I current target is to properly finish the course and be developer.</p>
@@ -111,7 +112,7 @@
       </div>
     </section>
 
-    <footer>
+    <footer id="footer-view">
       <h3>All right reversed by Sakib Al Hossain</h3>
       <div class="footer-icon">
         <a target="_blank" href="https://www.facebook.com/login/"><img src="assets/facebook.png" alt="facebook image"></a>
@@ -121,5 +122,11 @@
       <a target="_blank" href="https://www.linkedin.com/login"><img src="assets/linkedin-icon 1.png" alt="linkedin image"></a>
       </div>
     </footer>
+
+    <script>
+      document.getElementById('scroll-btn').addEventListener('click',function(){
+        document.getElementById('footer-view').scrollIntoView({behavior:'smooth'})
+      })
+    </script>
 </body>
 </html>
