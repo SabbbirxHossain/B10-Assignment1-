@@ -86,13 +86,13 @@ Why development Section Style */
   font-weight: 800;
 }
 
-.development-container{
+/* .development-container{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   padding: 80px 90px;
-}
+} */
 
 .development-header{
   text-align: center;
@@ -120,6 +120,14 @@ margin-top: 20px;
   margin-top: 30px;
   padding: 48px;
   gap: 30px;
+}
+
+.develop-card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 80px 90px;
 }
 
 .inpiration{
@@ -210,4 +218,14 @@ background: rgb(255, 255, 255);
 
 .input-box{
   margin-top: 20px;
+}
+
+footer{
+  margin:50px 150px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-icon a{
+  margin-right: 24px;
 }
