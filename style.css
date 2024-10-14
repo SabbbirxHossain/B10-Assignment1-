@@ -133,3 +133,39 @@ margin-top: 20px;
   margin-top:50px;
   width: 1000px;
 }
+
+.current-goal{
+  text-align: center;
+}
+
+.card-container{
+  margin: 80px 0px;
+  padding: 0px 290px;
+  display: flex;
+  gap: 40px;
+  justify-content: space-around;
+}
+.card1{
+  background-color: rgba(255, 76, 30, 0.05);
+  padding: 40px;
+}
+.card2{
+  background-color: rgba(0, 76, 232, 0.05);
+  padding: 40px;
+}
+.card3{
+  background-color: rgba(255, 223, 0, 0.05);
+  padding: 40px;
+}
+
+.common-description1{
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.anchor{
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration-line: underline;
+}
